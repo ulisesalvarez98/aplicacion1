@@ -1,0 +1,163 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>primera aplicacion</title>
+<!--grupo CSS-->
+<link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css"/>
+<link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css"/>
+<!--grupo JavaScript-->
+<script src="js/jquery-1.11.2.min.js"></script>
+<script src="js/jquery.mobile-1.4.5.min.js"></script>
+<script src="js/acciones.js"></script>
+<script src="phonegap.js" type="text/javascript"></script>
+</head>
+
+
+<body>
+<div data-role="page" id="principal" data-theme="a">
+ <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar"  data-back-btn-theme="b">
+ <h1>Datos personales del alumno</h1>
+ </div>
+<div data-role="main" class="ui-content">
+   <div data-role="collapsible" data-content-theme="false">
+   <h1>foto de perfil</h1>
+   <div>
+   <p>Esta es mi imagen de perfil:                          </p>
+   <br>
+   </div>
+   <div>
+   <img src="imagenes/yo.jpg" width="540" height="580"> </div>
+   </div>
+   </div>
+<div>
+    <ul data-role="listview" data-theme="b" class="ui-listview ui-group-theme-b">
+    <li class="ui-first-child ui-last-child">
+    <a href="#pagina1" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Datos generales</h2>
+    <p>Se muestra el nombre</p>
+    </a>
+    </li>
+    <li class="ui-first-child ui-last-child">
+    <a href="#pagina2" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+    <h2>Fecha de nacimiento</h2>
+    <p> Se muestra el dia , mes y año de nacimiento</p>
+    </a>   
+    </li>
+    <li class="ui-first-child ui-last-child">
+       <a href="#pagina3" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>DOMICILIO</h2>
+       <p>Muestra  el domicilio del alumno</p>
+       </a>
+       </li>
+    <li class="ui-first-child ui-last-child">
+       <a href="#pagina4" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>Deporte favorito</h2>
+       <p>Muestra el deporte que mas le agrada al alumno</p>
+       </a>
+       </li>
+    <li class="ui-first-child ui-last-child">
+       <a href="#pagina5" class="ui-btn ui-btn-icon-right ui-icon-carat-r">
+       <h2>otros gustos e intereses</h2>
+       <p>Muestra otro gusto del alumno</p>
+       </a>
+       </li>
+       </ul>
+    </div>
+    <div data-role="footer" align="center" data-theme="a">
+    <div>
+    <img src="imagenes/persona_azul.png" width="46" height="46">
+    </div>
+    <div>
+       <h4>Aplicacion uno</h4>
+       <h4>Ulises Alvarez Corio</h4>
+       </div>
+       </div>
+       </div>
+       
+       
+       
+       
+  <div data-role="page" id="pagina1" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>NOMBRE</h1>
+      </div>
+    <div data-role="content" align="center">
+    <div>
+       <h2>ULISES ALVAREZ CORIO</h2>
+       </div>
+       </div>
+     <div data-role="footer" data-theme="a">
+      <h4>Aplicacion uno, UAC</h4>
+      </div>
+      </div>
+      </div>    
+    
+      <div data-role="page" id="pagina2" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>FECHA DE NACIMIENTO</h1>
+      </div>
+    <div data-role="content" align="center">
+    <div>
+       <h2>8 de DICIEMBRE de 1998</h2></div>
+       </div>
+     <div data-role="footer" data-theme="a">
+      <h4>Aplicacion uno, UAC</h4>
+      </div>
+      </div>
+      </div>
+      
+      
+      
+       <div data-role="page" id="pagina3" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>DOMICILIO</h1>
+      </div>
+    <div data-role="content" align="center">
+    <div>
+       <h2>col.Guadalupe Victoria calle 5 mayo #2105</h2></div>
+       </div>
+     <div data-role="footer" data-theme="a">
+      <h4>Aplicacion uno, UAC</h4>
+      </div>
+      </div>
+      </div>
+  
+  
+      <div data-role="page" id="pagina4" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>DEPORTE FAVORITO</h1>
+      </div>
+    <div data-role="content" align="center">
+    <div>
+       <h2>BASQUETBALL</h2>
+       <img src="imagenes/deporte.jpg" width="50%" height="50%">
+       </div>
+       </div>
+     <div data-role="footer" data-theme="a">
+      <h4>Aplicacion uno, UAC</h4>
+      </div>
+      </div>
+      </div>
+      
+      
+  <div data-role="page" id="pagina5" data-add-back-btn="true" data-theme="a">
+      <div data-role="header" data-add-back-btn="true" data-back-btn-text="Regresar" data-back-btn-theme="b">
+      <h1>GUSTOS E INTERESES</h1>
+      </div>
+    <div data-role="content" align="center">
+    <div>
+       <h2>Dibujar</h2>
+       <img src="imagenes/pasatiempo.PNG" width="50%" height="50%">
+       </div>
+       </div>
+     <div data-role="footer" data-theme="a">
+      <h4>Aplicacion uno, UAC</h4>
+      </div>
+      </div>
+      </div>
+      
+      
+ </body>
+</html>
